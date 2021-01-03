@@ -1,0 +1,7 @@
+version: "3"
+services:
+  colorsservice:
+    build:
+      context: ./weatherforecast
+    ports:
+      - "8080:80"
