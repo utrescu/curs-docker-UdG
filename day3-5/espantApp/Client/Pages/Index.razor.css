@@ -14,3 +14,8 @@ body {
   text-align: center;
   align-items: center;
 }
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
