@@ -1,4 +1,4 @@
-# Passes
+# Tasca 1: Crear una imatge a partir d'un contenidor
 
-1. Iniciar contenidor i afegir-hi dades
-2. crear imatge del contenidor
+- En una imatge de SQLServer afegiu-hi dades
+- Creeu una imatge del contenidor
