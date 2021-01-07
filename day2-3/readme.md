@@ -1,4 +1,18 @@
-# Tasca 3: Crear imatge que executa un programa
+# 3. Fitxers Dockerfile
 
-- Creeu una imatge d'Ubuntu que quan l'executem cridi a `cowsay` amb un missatge que surti d'una variable d'entorn.
-- Executeu la imatge passant-li com a paràmetre una variable d'entorn amb un missatge diferent.
+En general el que es vol és crear imatges que puguin ser creades automàticament (ha canviat el codi font, ...). Per això existeixen els fitxers **Dockerfile**
+
+Comandes fetes servir:
+
+| paràmetre    | resultat                                 |
+| ------------ | ---------------------------------------- |
+| docker build | Crea una imatge seguint les instruccions |
+
+Instruccions _Dockerfile_:
+
+| Instrucció |                                              |
+| ---------- | -------------------------------------------- |
+| FROM       | Imatge base                                  |
+| RUN        | Executa comanda dins del contenidor          |
+| ENTRYPOINT | Programa a executar                          |
+| ENV        | Defineix una variable d'entorn al contenidor |

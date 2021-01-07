@@ -1,3 +1,8 @@
-# Crear una imatge "prima"
+# 6. Aprimar imatges
 
-- Creeu de nou la imatge de la tasca5 però amb un procés de dues fases de manera que la imatge resultant no tingui dins seu el codi font, només l'executable
+Com més instruccions tingui el Dockerfile més gran es farà la imatge resultant. El procés de construcció en dues fases permet generar imatges més petites
+
+| Instrucció   |                                                     |
+| ------------ | --------------------------------------------------- |
+| FROM .. AS   | Imatge que es pot referenciar amb un nom            |
+| COPY --from= | Copia coses des de la imatge amb el nom especificat |

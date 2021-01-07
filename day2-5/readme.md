@@ -1,18 +1,9 @@
-# Crear imatge a partir de codi font
+# 5. Empaquetar programa des de codi font
 
-- Creeu un projecte de C# en local
-- Fent servir la imatge del seu compilador creeu un Dockerfile que compili el programa i defineixi el punt d'entrada amb el binari generat
+Les imatges no tindrien sentit si no es pogués automatitzar tot el procés de desenvolupament
 
-> Des de consola es pot crear un projecte de consola .Net5 amb:
->
-> ```csharp
-> dotnet new console -o directori
-> ```
->
-> o un projecte web
->
-> ```csharp
-> dotent new mvc
-> ```
->
-> De totes formes es pot fer servir Visual Studio...
+Instruccions _Dockerfile_:
+
+| Instrucció |                                                  |
+| ---------- | ------------------------------------------------ |
+| WORKDIR    | Canvia el directori de referència del contenidor |

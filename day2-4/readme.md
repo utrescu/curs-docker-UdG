@@ -1,4 +1,10 @@
-# Empaquetar una web amb el servidor
+# 4. Empaquetar una web amb el servidor
 
-- Creeu una imatge del servidor Apache Httpd que contingui la web del directori
-- Comproveu que la podeu veure des de la màquina local
+En les imatges s'hi pot empaquetar qualsevol tipus de dades. També fitxers:
+
+Instruccions _Dockerfile_:
+
+| Instrucció |                                                 |
+| ---------- | ----------------------------------------------- |
+| COPY       | Copia fitxers i directoris locals al contenidor |
+| EXPOSE     | Notifica que s'exposen ports (només informació) |

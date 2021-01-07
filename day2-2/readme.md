@@ -1,5 +1,9 @@
-# Tasca 2: Penjar imatge a Docker Hub
+# 2. Penjar la imatge en un repositori
 
-- Creeu-vos un compte a Docker Hub
-- Penjeu la vostra imatge a Docker Hub
-- Poseu-vos en contacte amb un company i proveu la seva imatge (o descarregueu la que hem creat durant la presentació)
+Un cop feta la imatge. També la voldrem enviar a un repositori per poder-la obtenir
+quan ens faci falta
+
+| paràmetre    | resultat                       |
+| ------------ | ------------------------------ |
+| docker login | Identificació en el repositori |
+| docker push  | Envia una imatge al repositori |

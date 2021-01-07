@@ -1,4 +1,10 @@
-# Tasca 1: Crear una imatge a partir d'un contenidor
+# 1. Crear imatges
 
-- En una imatge de SQLServer afegiu-hi dades
-- Creeu una imatge del contenidor
+Normalment no es volen imatges verges sinó que el que es vol és tenir una imatge
+amb el nostre contingut. Es poden crear imatges a partir de contenidors en marxa
+
+Comandes docker fetes servir:
+
+| paràmetre     | resultat                       |
+| ------------- | ------------------------------ |
+| docker commit | Crea un contenidor i l'executa |
