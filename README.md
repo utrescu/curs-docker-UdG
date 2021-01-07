@@ -34,15 +34,16 @@ en marxa el contenidor estarà en marxa
 
 Comandes docker fetes servir:
 
-| paràmetre           | resultat                        |
-| ------------------- | ------------------------------- |
-| docker run          | Crea un contenidor i l'executa  |
-| docker ps [-a]      | Mostra l'estat dels contenidors |
-| docker container ls | Mostra els contenidors          |
-| docker stop         | Atura un contenidor             |
-| docker container rm | Elimina el contenidor           |
-| docker image ls     | Mostra les imatges locals       |
-| docker image rm     | Elimina una imatge local        |
+| paràmetre           | resultat                               |
+| ------------------- | -------------------------------------- |
+| docker run          | Crea un contenidor i l'executa         |
+| docker ps [-a]      | Mostra l'estat dels contenidors        |
+| docker inspect      | Proporciona informació sobre la imatge |
+| docker container ls | Mostra els contenidors                 |
+| docker stop         | Atura un contenidor                    |
+| docker container rm | Elimina el contenidor                  |
+| docker image ls     | Mostra les imatges locals              |
+| docker image rm     | Elimina una imatge local               |
 
 Opcions:
 
