@@ -1,7 +1,0 @@
-version '3'
-services:
-    mydb:
-        image: mariadb
-        environment:
-            MYSQL_ROOT_PASSWORD=pande2020
-
