@@ -1,5 +1,7 @@
 # Dia 1
 
+Presentació ([aquí](https://docs.google.com/presentation/d/1zW82h1rE6VDcoiVfkBobVSjDTT3AKCsISjOICeiDfAA/edit?usp=sharing))
+
 ## 1. Instal·lació de Docker
 
 Docker està basat en Linux però hi ha versións per els grans sistemes operatius Windows, MacOs. [Aquí](https://docs.docker.com/get-docker/)
