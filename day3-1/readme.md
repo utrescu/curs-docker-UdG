@@ -1,0 +1,12 @@
+# 3. Executar contenidors amb docker-compose
+
+Docker-compose es pot fer servir per executar contenidors definint els paràmetres
+en un fitxer [Yaml](https://learn.getgrav.org/16/advanced/yaml)
+
+Instruccions _docker-compose.yml_:
+
+| Instrucció  |                                                           |
+| ----------- | --------------------------------------------------------- |
+| services    | Secció amb els contenidors                                |
+| image       | Defineix la imatge que farà servir un "servei"            |
+| environment | Defineix variables d'entorn que farà servir el contenidor |
