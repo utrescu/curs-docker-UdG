@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Components;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace Colors
 {
@@ -13,9 +11,7 @@ namespace Colors
     public class ColorData : ComponentBase
     {
 
-        public const string RestServer = "https://localhost:5001";
-
-        protected Color ColorActual = new Color { Name = "blanc", Rgb = "#000000" };
+        protected Color ColorActual = new Color { Name = "blanc", Rgb = "#ffffff" };
         protected System.Threading.Timer timer;
 
 

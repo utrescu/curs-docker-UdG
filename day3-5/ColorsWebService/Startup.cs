@@ -21,12 +21,17 @@ namespace Colors
         public void ConfigureServices(IServiceCollection services)
         {
 
+            var conn = System.Environment.GetEnvironmentVariable("ConnectionSettings:ConnectionString");
+            if (conn == null)
+            {
+                conn = Configuration["ConnectionSettings:ConnectionString"];
+            }
 
-
+            System.Console.WriteLine($"ConnectionString: {conn}");
             services.AddEntityFrameworkSqlServer()
             // .AddSqlServer()
             .AddDbContext<ColorContext>((sp, options) =>
-                   options.UseSqlServer(Configuration["ConnectionSettings:ConnectionString"])
+                   options.UseSqlServer(conn)
                    .UseInternalServiceProvider(sp)
                 );
 
@@ -37,16 +42,11 @@ namespace Colors
             {
                 options.AddPolicy("CorsPolicy",
                     builder => builder
+                        .WithOrigins("*")
                         .AllowAnyMethod()
-                        .AllowCredentials()
                         .SetIsOriginAllowed((host) => true)
                         .AllowAnyHeader());
             });
-
-            // services.AddSwaggerGen(c =>
-            // {
-            //     c.SwaggerDoc("v1", new OpenApiInfo { Title = "ColorsWebService", Version = "v1" });
-            // });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,8 +55,6 @@ namespace Colors
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                // app.UseSwagger();
-                // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ColorsWebService v1"));
             }
 
             app.UseCors("CorsPolicy");

@@ -14,14 +14,13 @@
 @code {
     protected override async Task OnInitializedAsync()
     {
-        ColorActual = await Http.GetFromJsonAsync<Color>($"{RestServer}/Colors/Random");
+        ColorActual = await Http.GetFromJsonAsync<Color>($"/Colors/Random");
 
         timer = new System.Threading.Timer(async (object stateInfo) =>
             {
-            ColorActual = await Http.GetFromJsonAsync<Color>($"{RestServer}/Colors/Random");
+            ColorActual = await Http.GetFromJsonAsync<Color>($"/Colors/Random");
             StateHasChanged();
         }, new System.Threading.AutoResetEvent(false), 1000, 1000);
-
     }
 
     public void ShowError(string message = "Error recuperant colors")
