@@ -1,6 +1,6 @@
 # Dia 3
 
-Presentació ([aquí](https://docs.google.com/presentation/d/1Ap0gw2PujJWGaw5-PC2BDP4NsNsNyI2LHwGfjv5SuoQ/edit?usp=sharing)
+Presentació ([aquí](https://docs.google.com/presentation/d/1Ap0gw2PujJWGaw5-PC2BDP4NsNsNyI2LHwGfjv5SuoQ/edit?usp=sharing))
 
 ## Tasca 1: Executar MySQL amb docker-compose
 
@@ -25,6 +25,13 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1Ap0gw2PujJWGaw5-PC
 
 ## Tasca 5: Construir un programa amb més components
 
-Teniu un programa que fa servir SQLServer, un servei REST (ColorsWebService) que recupera les dades de la base de dades i una Web en Blazor (espantApp) que fa peticions al servei Web.
+Teniu un programa que fa servir una base de dades SQLServer, un servei REST i un frontend Blazor WASM (espantApp)
+
+![Rest](images/webservice.png)
+
+> NOTES:
+>
+> - El servei REST pot rebre les dades de connexió a la base de dades amb una variable d'entorn `ConnectionSettings__ConnectionString`
+> - Els projectes Blazor WASM generen la web en un directori `wwwroot`. Aquesta web s'ha d'hostatjar en un servidor web.
 
 - Construiu el fitxer docker-compose.yml que permeti iniciar el sistema amb una sola comanda.
