@@ -14,9 +14,10 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1Ap0gw2PujJWGaw5-PC
 
 ## Tasca 3: Iniciar dos contenidors amb dependències
 
-- Desenvolupeu un fitxer `docker-compose` que executi la imatge `utrescu/data-creator` i una base de dades MySQL. Definiu que la base de dades depèn del data-creator
-- Comproveu que la base de dades conté dades en la taula `Persones`
-- Desplegueu un contenidor Wordpress amb una base de dades MySQL
+- Desenvolupeu un fitxer `docker-compose` que executi la imatge `utrescu/data-creator` i una base de dades MySQL. El data-creator té per objectiu crear una taula `persones` i omplir-la amb dades
+- Comproveu que la base de dades conté dades en la taula `persones`
+
+> El data creator pot personalitzar-se rebent com a variables d'entorn `DATABASE_USER`, `DATABASE_PASSWORD`, `DATABASE_NAME` i `DATABASE_HOST`
 
 ## Tasca 4: Construir imatge i executar-la
 
@@ -34,4 +35,4 @@ Teniu un programa que fa servir una base de dades SQLServer, un servei REST i un
 > - El servei REST pot rebre les dades de connexió a la base de dades amb una variable d'entorn `ConnectionSettings__ConnectionString`
 > - Els projectes Blazor WASM generen la web en un directori `wwwroot`. Aquesta web s'ha d'hostatjar en un servidor web.
 
-- Construiu el fitxer docker-compose.yml que permeti iniciar el sistema amb una sola comanda.
+- Construiu el fitxer docker-compose.yml que permeti iniciar el sistema de cop.
