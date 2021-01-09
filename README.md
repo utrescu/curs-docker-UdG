@@ -45,3 +45,9 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1FugK5vONYescJq7FaY
 ## Tasca 6: Crear una imatge "prima"
 
 - Creeu de nou la imatge de la tasca5 però amb un procés de dues fases de manera que la imatge resultant no tingui dins seu el codi font, només l'executable
+
+## Vull més feina! I sense ajuda
+
+- Feu un programa, en el llenguatge que vulgueu, que compti les paraules d'un text i empaqueteu-lo en un contenidor.
+  - El text que ha d'avaluar li ha d'arribar en una variable d'entorn
+- TODO: More exemples
