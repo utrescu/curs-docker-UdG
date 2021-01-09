@@ -2,6 +2,8 @@
 
 Presentació ([aquí](https://docs.google.com/presentation/d/1zW82h1rE6VDcoiVfkBobVSjDTT3AKCsISjOICeiDfAA/edit?usp=sharing))
 
+[PDF](Presentacio.pdf)
+
 ## Tasca 1: Instal·lació de Docker en el vostre sistema
 
 - Instal·lar Docker
@@ -36,7 +38,14 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1zW82h1rE6VDcoiVfkB
 
 ## Tasca 5: Volums de dades
 
-- Engeguem un SqlServer o un MySQL, hi posem dades
+- Engeguem una base de dades amb un volum amb nom.
+- Hi posem dades
 - Eliminem el contenidor
-- Creem un nou contenidor i li muntem les dades anteriors
+- Creem un nou contenidor i li muntem el volum anterior
 - Comprovem que encara hi són
+
+## Vull més feina! I sense ajuda
+
+- En un contenidor Debian instal·leu el servidor web Apache. Quina és la web que surt per defecte?
+- Sense instal·lar el compilador compileu el programa Rust que hi ha a https://github.com/fxaviersala/TasquesArbre.git . Quin resultat dóna?
+- Quants usuaris hi ha en la taula d’Usuaris de una imatge de **SQLServer** que es diu utrescu/testdata?
