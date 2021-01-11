@@ -48,4 +48,4 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1zW82h1rE6VDcoiVfkB
 
 - En un contenidor Debian instal·leu el servidor web Apache. Quina és la web que surt per defecte?
 - Sense instal·lar el compilador compileu el programa Rust que hi ha a https://github.com/fxaviersala/TasquesArbre.git . Quin resultat dóna?
-- Quants usuaris hi ha en la taula d’Usuaris de una imatge de **SQLServer** que es diu utrescu/testdata?
+- Quants usuaris hi ha en la taula d’Usuaris de una imatge de **SQLServer** que es diu utrescu/testdb?
