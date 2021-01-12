@@ -7,8 +7,9 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1FugK5vONYescJq7FaY
 - En una imatge de SQLServer afegiu-hi dades
 - Creeu una imatge del contenidor
 
-## Tasca 2: Penjar imatge a Docker Hub
+## Tasca 2: Distribuir imatges
 
+- Importeu la imatge `aliga.tar` del directori `day2-2` i executeu-la.
 - Creeu-vos un compte a Docker Hub
 - Penjeu la vostra imatge a Docker Hub
 - Poseu-vos en contacte amb un company i proveu la seva imatge (o descarregueu la que hem creat durant la presentació)
@@ -17,6 +18,8 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1FugK5vONYescJq7FaY
 
 - Creeu una imatge d'Ubuntu que quan l'executem cridi a `cowsay` amb un missatge que surti d'una variable d'entorn.
 - Executeu la imatge passant-li com a paràmetre una variable d'entorn amb un missatge diferent.
+
+- Creeu una imatge de Alpine en la que s'executi el programa que està dins del fitxer `aliga.tar.gz`
 
 ## Tasca 4: Empaquetar una web amb el servidor
 
@@ -44,6 +47,7 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1FugK5vONYescJq7FaY
 
 ## Tasca 6: Crear una imatge "prima"
 
+- Tenim un programa en Go (Golang) en el directori _./day2-6/aliga_ i volem crear un contenidor per executar-lo. Com que no necessita gaire res el volem en un **Alpine Linux**.
 - Creeu de nou la imatge de la tasca5 però amb un procés de dues fases de manera que la imatge resultant no tingui dins seu el codi font, només l'executable
 
 ## Vull més feina! I sense ajuda
