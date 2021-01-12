@@ -2,6 +2,8 @@
 
 Presentació ([aquí](https://docs.google.com/presentation/d/1FugK5vONYescJq7FaY1NABirlihU10fVPw52gAT4Zjk/edit?usp=sharing)
 
+[PDF](Presentacio.pdf)
+
 ## Tasca 1: Crear una imatge a partir d'un contenidor
 
 - En una imatge de SQLServer afegiu-hi dades
@@ -54,4 +56,3 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1FugK5vONYescJq7FaY
 
 - Feu un programa, en el llenguatge que vulgueu, que compti les paraules d'un text i empaqueteu-lo en un contenidor.
   - El text que ha d'avaluar li ha d'arribar en una variable d'entorn
-- TODO: More exemples
