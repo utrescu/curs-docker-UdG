@@ -2,6 +2,8 @@
 
 Presentació ([aquí](https://docs.google.com/presentation/d/1Ap0gw2PujJWGaw5-PC2BDP4NsNsNyI2LHwGfjv5SuoQ/edit?usp=sharing))
 
+- [PDF](Presentacio.pdf)
+
 ## Tasca 1: Executar MySQL amb docker-compose
 
 - Executeu una instància de MySQL o MariaDb fent servir Docker-compose
