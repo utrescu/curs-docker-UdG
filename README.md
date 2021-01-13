@@ -1,8 +1,8 @@
 # Dia 2
 
-Presentació ([aquí](https://docs.google.com/presentation/d/1FugK5vONYescJq7FaY1NABirlihU10fVPw52gAT4Zjk/edit?usp=sharing)
+Presentació ([aquí](https://docs.google.com/presentation/d/1FugK5vONYescJq7FaY1NABirlihU10fVPw52gAT4Zjk/edit?usp=sharing))
 
-[PDF](Presentacio.pdf)
+- [PDF](Presentacio.pdf)
 
 ## Tasca 1: Crear una imatge a partir d'un contenidor
 
@@ -47,7 +47,7 @@ Presentació ([aquí](https://docs.google.com/presentation/d/1FugK5vONYescJq7FaY
 >
 > De totes formes es pot fer servir Visual Studio...
 
-## Tasca 6: Crear una imatge "prima"
+## Tasca 6: Crear imatges "primes"
 
 - Tenim un programa en Go (Golang) en el directori _./day2-6/aliga_ i volem crear un contenidor per executar-lo. Com que no necessita gaire res el volem en un **Alpine Linux**.
 - Creeu de nou la imatge de la tasca5 però amb un procés de dues fases de manera que la imatge resultant no tingui dins seu el codi font, només l'executable
